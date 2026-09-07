@@ -1,4 +1,4 @@
-# 📊 OrderFlowKawa — Institutional Order Flow & Auction Market Theory Engine
+# 📊 OrderFlow Core — Institutional Order Flow & Auction Market Theory Engine
 
 [![Platform](https://img.shields.io/badge/Platform-MetaTrader%205-green.svg)](https://www.metatrader5.com)
 [![MQL5](https://img.shields.io/badge/Language-MQL5%20%2F%20C%2B%2B-blue.svg)](https://www.mql5.com)
@@ -6,7 +6,7 @@
 [![Telegram Control](https://img.shields.io/badge/Control-Telegram%20Bot-blue.svg?logo=telegram)](https://telegram.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**OrderFlowKawa** is a quantitative, institutional-grade automated trading system built for **MetaTrader 5 (MT5)**. Operating strictly within the mathematical principles of **Auction Market Theory (AMT)** and **Volume Profile Microstructure**, the system eliminates lagging retail indicators in favor of pure volumetric liquidity distribution, auction imbalance, and order flow absorption.
+**OrderFlow Core** is a quantitative, institutional-grade automated trading system built for **MetaTrader 5 (MT5)**. Operating strictly within the mathematical principles of **Auction Market Theory (AMT)** and **Volume Profile Microstructure**, the system eliminates lagging retail indicators in favor of pure volumetric liquidity distribution, auction imbalance, and order flow absorption.
 
 Designed for high-beta equity index futures and CFDs (NQ / USTEC / ES), the system combines a native, ultra-low-latency **MQL5 Expert Advisor** with a robust **Python asynchronous state machine** and **Telegram command & control loop**.
 
@@ -51,7 +51,7 @@ Financial markets are dual-auction mechanisms facilitating trade by discovering 
 ## 🏗️ System Architecture
 
 ```
-OrderFlowKawa System
+OrderFlow Core System
 ├── MQL5 Native Layer
 │   ├── OrderFlowKawa_EA.mq5            # Core autonomous EA with CTrade execution
 │   └── OrderFlowKawa_MasterVisual.mq5   # Real-time chart visualizer & CSV telemetry
@@ -76,8 +76,8 @@ OrderFlowKawa System
 
 ### 2. Installation
 ```bash
-git clone https://github.com/kawacoline/OrderFlowKawa.git
-cd OrderFlowKawa
+git clone https://github.com/kawacoline/OrderFlow-Core.git
+cd OrderFlow-Core
 setup.bat
 ```
 
@@ -134,4 +134,4 @@ TELEGRAM_ADMIN_IDS=your_telegram_id
 
 ## ⚖️ Disclaimer
 
-*OrderFlowKawa is for educational, research, and algorithmic evaluation purposes. Trading futures, CFDs, and leveraged assets involves substantial risk of financial loss.*
+*OrderFlow Core is for educational, research, and algorithmic evaluation purposes. Trading futures, CFDs, and leveraged assets involves substantial risk of financial loss.*
